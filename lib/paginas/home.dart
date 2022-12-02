@@ -1,7 +1,9 @@
+import 'package:applistadozapatos/paginas/buscarProducto.dart';
 import 'package:applistadozapatos/paginas/terminosyc.dart';
 import 'package:applistadozapatos/temas/colores.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -41,11 +43,11 @@ class _HomeState extends State<Home> {
             padding: const EdgeInsets.only(left: 20),
             child: IconButton(
                 icon: Icon(
-                  FeatherIcons.search,
+                  FontAwesomeIcons.magnifyingGlass,
                 ),
                 onPressed: () {
                   Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => TerminosyC()));
+                      builder: (context) => BuscarProducto()));
                 }),
           )
         ]),

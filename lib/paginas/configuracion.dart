@@ -1,5 +1,5 @@
+import 'package:applistadozapatos/main.dart';
 import 'package:applistadozapatos/paginas/contacto.dart';
-import 'package:applistadozapatos/paginas/inicio.dart';
 import 'package:applistadozapatos/paginas/terminosyc.dart';
 import 'package:applistadozapatos/temas/colores.dart';
 import 'package:flutter/material.dart';

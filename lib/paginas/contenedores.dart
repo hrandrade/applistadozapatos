@@ -4,6 +4,7 @@ import 'package:applistadozapatos/paginas/listadoZapatos.dart';
 import 'package:applistadozapatos/temas/colores.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Contenedores extends StatefulWidget {
   const Contenedores({Key? key}) : super(key: key);
@@ -34,13 +35,13 @@ class _ContenedoresState extends State<Contenedores> {
   //barra inferior
   Widget spotFooter(){
    List items = [
-      FeatherIcons.home,
-      FeatherIcons.list,
-      FeatherIcons.settings,
+      FontAwesomeIcons.houseChimney,
+      FontAwesomeIcons.listCheck,
+      FontAwesomeIcons.gear,
    ];
 
     return Container(
-      height: 35,
+      height: 45,
       decoration: BoxDecoration(color: primario),
       child: Padding(
         padding: const EdgeInsets.only(left: 20, right: 20),
